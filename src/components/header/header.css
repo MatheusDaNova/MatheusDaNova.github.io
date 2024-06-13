@@ -43,9 +43,13 @@
 
 /* Active links*/
 
-.active__link,
+.active__link{
+color: var(--title-color-dark);
+}
+
 .nav__link:hover {
     color: var(--title-color-dark);
+    font-size: 1rem;
 }
 
 /* Breakpoints */
