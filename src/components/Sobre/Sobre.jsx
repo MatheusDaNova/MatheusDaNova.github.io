@@ -16,7 +16,7 @@ const Sobre = () => {
             <div className="about__data">
                 <Info />
 
-                <p className="about__data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem non vel doloribus eligendi perferendis.</p>
+                <p className="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem non vel doloribus eligendi perferendis.</p>
 
                 <a download="" href={Curriculo} className="button button--flex">Baixar Curriculo
                   <svg
