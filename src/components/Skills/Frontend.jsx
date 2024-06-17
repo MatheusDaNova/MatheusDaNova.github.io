@@ -12,7 +12,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Html
-                            <i class="uil uil-html5"></i>
+                            <i class="uil uil-html5 skills__icon"></i>
                         </h3>
                         <span className="skills__level">Básico</span>
                     </div>
@@ -23,7 +23,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">CSS
-                            <i class="uil uil-css3-simple"></i>
+                            <i class="uil uil-css3-simple skills__icon"></i>
                         </h3>
                         <span className="skills__level">Intermediário</span>
                         
@@ -35,7 +35,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Javascript
-                            <i class="uil uil-java-script"></i>
+                            <i class='bx bxl-javascript'></i>
                         </h3>
                         <span className="skills__level">Básico</span>
                     </div>
@@ -46,18 +46,9 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">React
-                            <i class="uil uil-react"></i>
+                            <i class="uil uil-react skills__icon"></i>
                         </h3>
                         <span className="skills__level">Básico</span>
-                    </div>
-                </div> 
-
-                <div className="skills__data">
-                    <i class="bx bx-badge-check"></i>
-
-                    <div>
-                        <h3 className="skills__name">PHP</h3>
-                        <span className="skills__level">Intermediário</span>
                     </div>
                 </div> 
                 
@@ -66,7 +57,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">GIT
-                            <i class="uil uil-github"></i>
+                            <i class="uil uil-github skills__icon"></i>
                         </h3>
                         <span className="skills__level">Básico</span>
                     </div>

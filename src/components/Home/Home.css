@@ -114,18 +114,7 @@
 .home__scroll-arrow{
     font-size: 1.25rem;
     color: var(--title-color);
-    animation: scroll-arrow 1s ease infinite;
 }
-
-@keyframes scroll-arrow {
-    0%{
-        transform: translateY(0);
-    }
-
-    30%{
-        transform: translateY(.75rem);
-    }
-    }
 
 /* For large devices */
 @media screen and (max-width: 992px) {
