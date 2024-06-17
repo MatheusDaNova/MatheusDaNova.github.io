@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sobre.css";
-import AboutImg from "../../assets/tatum.jfif";
+import AboutImg from "../../assets/Matheus.jfif";
 import Info from "./Info";
 import Curriculo from "../../assets/curriculo.pdf";
 
