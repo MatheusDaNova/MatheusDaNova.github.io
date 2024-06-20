@@ -11,17 +11,6 @@ const Frontend = () => {
                     <i class="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills__name">Html
-                            <i class="uil uil-html5 skills__icon"></i>
-                        </h3>
-                        <span className="skills__level">Básico</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i class="bx bx-badge-check"></i>
-
-                    <div>
                         <h3 className="skills__name">CSS
                             <i class="uil uil-css3-simple skills__icon"></i>
                         </h3>
@@ -35,7 +24,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Javascript
-                            <i class='bx bxl-javascript'></i>
+                            <i class="bx bxl-javascript skills__icon"></i>
                         </h3>
                         <span className="skills__level">Básico</span>
                     </div>
