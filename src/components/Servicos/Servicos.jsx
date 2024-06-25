@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Servicos.css";
 
 const Servicos = () =>{
+        const [toggleState, seToggleState] = useState(0);
+
+        const toggleTab = (index) => {
+            seToggleState(index);
+        }
+
     return (
        <section className="servicos section" id="servicos">
          <h2 className="section__title">Serviços</h2>
@@ -16,13 +22,16 @@ const Servicos = () =>{
                     </h3> 
                 </div>
 
-                <span className="servicos__button">Saiba mais <i className="uil uil-arrow-right servicos__button-icon"></i></span>
+                <span className="servicos__button" onClick={() => toggleTab(1)}>Saiba mais 
+                    <i className="uil uil-arrow-right servicos__button-icon"></i>
+                </span>
 
-                <div className="servicos__modal">
+                <div className={toggleState === 1 ?  "servicos__modal active-modal" : "servicos__modal"}>
+
                     <div className="servicos__modal-content">
-                        <i class="uil uil-times servicos__modal-close"></i>
+                        <i onClick={() => toggleTab(0)} class="uil uil-times servicos__modal-close"></i>
                         
-                        <h3 className="servicos__modal-title">Develop</h3>
+                        <h3 className="servicos__modal-title">Develop 1</h3>
                         <p className="servicos__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit.</p>
 
                         <ul className="servicos__modal-servicos grid">
@@ -53,13 +62,16 @@ const Servicos = () =>{
                     </h3> 
                 </div>
 
-                <span className="servicos__button">Saiba mais <i className="uil uil-arrow-right servicos__button-icon"></i></span>
+                <span className="servicos__button" onClick={() => toggleTab(2)}>Saiba mais 
+                    <i className="uil uil-arrow-right servicos__button-icon"></i>
+                </span>
 
-                <div className="servicos__modal">
+                <div className={ toggleState=== 2 ?   "servicos__modal active-modal" : "servicos__modal"}>
+
                     <div className="servicos__modal-content">
-                        <i className="ui uil-times servicos__modal-close"></i>
+                        <i onClick={() => toggleTab(0)} className="ui uil-times servicos__modal-close"></i>
                         
-                        <h3 className="servicos__modal-title">Develop</h3>
+                        <h3 className="servicos__modal-title">Develop 2</h3>
                         <p className="servicos__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit.</p>
 
                         <ul className="servicos__modal-servicos grid">
@@ -91,13 +103,16 @@ const Servicos = () =>{
                     </h3> 
                 </div>
 
-                <span className="servicos__button">Saiba mais <i className="uil uil-arrow-right servicos__button-icon"></i></span>
+                <span className="servicos__button" onClick={() =>toggleTab(3)}>Saiba mais 
+                    <i className="uil uil-arrow-right servicos__button-icon"></i>
+                </span>
 
-                <div className="servicos__modal">
+                <div className={toggleState === 3 ? "servicos__modal active-modal" : "servicos__modal"}>
+
                     <div className="servicos__modal-content">
-                        <i className="ui uil-times servicos__modal-close"></i>
+                        <i onClick={() => toggleTab(0)} className="ui uil-times servicos__modal-close"></i>
                         
-                        <h3 className="servicos__modal-title">Develop</h3>
+                        <h3 className="servicos__modal-title">Develop 3</h3>
                         <p className="servicos__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit.</p>
 
                         <ul className="servicos__modal-servicos grid">
