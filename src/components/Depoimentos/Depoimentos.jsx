@@ -17,7 +17,9 @@ const Depoimentos = () => {
 
 
             <Swiper className="depoimentos__container"
+                /*modules={[Pagination]}*/
                 loop = {true}
+                grabCursor={true}
                 spaceBetween={24}
                 pagination={{
                     clickable: true,
@@ -30,13 +32,11 @@ const Depoimentos = () => {
                         spaceBetween:48,
                     },
                 }}
-                /*modules={[ Pagination ]}*/
-
                 >
                 {Data.map(({id, image, title, description}) =>{
                     return(
                         <SwiperSlide key={id} className="depoimentos__card">
-                            <img src={image} alt="" className="depoimentos__img" />
+                            <img src={image} alt="" className="depoimentos__img"/>
 
                             <h3 className="depoimentos__name">{title}</h3>
                             <p className="depoimentos__descripition">{description}</p>
