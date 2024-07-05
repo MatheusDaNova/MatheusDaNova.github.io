@@ -83,6 +83,13 @@
             border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
         }
     
+        0%{
+            transform: translateY(0);
+        }
+    
+        30%{
+            transform: translateY(4rem);
+        }
 }
 
 .home__scroll {
@@ -155,6 +162,25 @@
 }
   /* For medium devices */
   @media screen and (max-width: 768px) {
+    
+    @keyframes profile__animate {
+        0% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        }
+
+        50% {
+            border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+        }
+
+        100% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        }
+        
+        30%{
+            transform: translateY(2rem);
+        }
+    }
+
     .home__content{
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;

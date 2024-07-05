@@ -8,6 +8,9 @@ import Servicos from './components/Servicos/Servicos';
 import Qualificacoes from './components/Qualificacoes/Qualificacoes';
 import Depoimentos from './components/Depoimentos/Depoimentos';
 import Contato from './components/Contato/Contato';
+import Footer from './components/Footer/Footer';
+import ScrollUp from './components/ScrollUp/ScrollUp';
+import Portifolio from './components/Projetos/Portifolio';
 
 const App = () => {
   return (
@@ -18,11 +21,14 @@ const App = () => {
     <main className='main'>
       <Home />
       <Sobre />
+      <Portifolio />
       <Skills />
       <Servicos />
       <Qualificacoes />
       <Contato />
     </main>
+      <Footer />
+      <ScrollUp />
     </>
   )
   
