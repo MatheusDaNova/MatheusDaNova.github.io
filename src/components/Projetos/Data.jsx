@@ -35,6 +35,12 @@ export const ProjetosData = [
         title: 'Projeto 5',
         category: 'Ladding Pages',
     },
+    {
+        id: 6,
+        image: Work6,
+        title: 'Projeto 6',
+        categoria: 'Sites',
+    },
 ];
 
 export const projetosNav = [
