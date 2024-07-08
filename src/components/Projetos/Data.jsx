@@ -39,6 +39,9 @@ export const ProjetosData = [
 
 export const projetosNav = [
     {
+        name:'Todos',
+    },
+    {
         name:'web',
     },
     {
