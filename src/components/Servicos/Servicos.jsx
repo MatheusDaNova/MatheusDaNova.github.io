@@ -18,7 +18,7 @@ const Servicos = () =>{
                 <div>
                     <i className="uil uil servicos__icon"></i>
                     <h3 className="servicos__title">
-                        Product <br /> Designer
+                        Desenvolvimento <br /> Web
                     </h3> 
                 </div>
 
@@ -58,7 +58,7 @@ const Servicos = () =>{
                 <div>
                     <i className="uil uil servicos__icon"></i>
                     <h3 className="servicos__title">
-                        Product <br /> Designer
+                        Manutenção &<br /> Suporte
                     </h3> 
                 </div>
 
@@ -99,7 +99,7 @@ const Servicos = () =>{
                 <div>
                     <i className="uil uil servicos__icon"></i>
                     <h3 className="servicos__title">
-                        Product <br /> Designer
+                        Melhorias &<br /> Aprimoramento
                     </h3> 
                 </div>
 
