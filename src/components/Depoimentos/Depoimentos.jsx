@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import{ Data } from "./Data";
 import "./Depoimentos.css"; 
 
@@ -17,7 +17,7 @@ const Depoimentos = () => {
 
 
             <Swiper className="depoimentos__container"
-                /*modules={[Pagination]}*/
+                modules={[Pagination]}
                 loop = {true}
                 grabCursor={true}
                 spaceBetween={24}
@@ -49,3 +49,4 @@ const Depoimentos = () => {
 }
 
 export default Depoimentos;
+*/
