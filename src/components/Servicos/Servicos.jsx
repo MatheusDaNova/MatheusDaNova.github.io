@@ -16,7 +16,7 @@ const Servicos = () =>{
         <div className="servicos__container container grid">
             <div className="servicos__content">
                 <div>
-                    <i className="uil uil servicos__icon"></i>
+                    <i className="uil uil-globe servicos__icon"></i>
                     <h3 className="servicos__title">
                         Desenvolvimento <br /> Web
                     </h3> 
@@ -31,23 +31,23 @@ const Servicos = () =>{
                     <div className="servicos__modal-content">
                         <i onClick={() => toggleTab(0)} class="uil uil-times servicos__modal-close"></i>
                         
-                        <h3 className="servicos__modal-title">Develop 1</h3>
-                        <p className="servicos__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit.</p>
+                        <h3 className="servicos__modal-title">Desenvolvimento</h3>
+                        <p className="servicos__modal-description">Dentro deste segmento, eu presto serviços diversos, que vão de ladding pages a aplicações mais complexas.</p>
 
                         <ul className="servicos__modal-servicos grid">
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Desenvolvimento de interfaces</p>
                             </li>
 
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Faço design para seu negócio</p>
                             </li>
 
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Construção de aplicações </p>
                             </li>
 
                         </ul>
@@ -56,7 +56,7 @@ const Servicos = () =>{
             </div>
             <div className="servicos__content">
                 <div>
-                    <i className="uil uil servicos__icon"></i>
+                    <i className="uil uil-cog servicos__icon"></i>
                     <h3 className="servicos__title">
                         Manutenção &<br /> Suporte
                     </h3> 
@@ -71,25 +71,19 @@ const Servicos = () =>{
                     <div className="servicos__modal-content">
                         <i onClick={() => toggleTab(0)} className="ui uil-times servicos__modal-close"></i>
                         
-                        <h3 className="servicos__modal-title">Develop 2</h3>
-                        <p className="servicos__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit.</p>
+                        <h3 className="servicos__modal-title">Manutenção</h3>
+                        <p className="servicos__modal-description">Dentro deste segmento, eu presto serviços diversos, para correção de qualquer problema existente no seu sistema.</p>
 
                         <ul className="servicos__modal-servicos grid">
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Correção de bugs</p>
                             </li>
 
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Otimização de sistemas</p>
                             </li>
-
-                            <li className="servicos__modal-servico">
-                                <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
@@ -97,7 +91,7 @@ const Servicos = () =>{
 
             <div className="servicos__content">
                 <div>
-                    <i className="uil uil servicos__icon"></i>
+                    <i className="uil uil-comment-verify servicos__icon"></i>
                     <h3 className="servicos__title">
                         Melhorias &<br /> Aprimoramento
                     </h3> 
@@ -112,23 +106,23 @@ const Servicos = () =>{
                     <div className="servicos__modal-content">
                         <i onClick={() => toggleTab(0)} className="ui uil-times servicos__modal-close"></i>
                         
-                        <h3 className="servicos__modal-title">Develop 3</h3>
-                        <p className="servicos__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit.</p>
+                        <h3 className="servicos__modal-title">Aprimoramentos</h3>
+                        <p className="servicos__modal-description">Dentro deste segmento, eu presto serviços diversos, para melhora de desempenho ou atualização do seu sistema.</p>
 
                         <ul className="servicos__modal-servicos grid">
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Redesign da identidade visual de site ou software</p>
                             </li>
 
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Reformulação completa de sistemas</p>
                             </li>
 
                             <li className="servicos__modal-servico">
                                 <i className="uil uil-check-circle servicos__modal-icon"></i>
-                                <p className="servicos__modal-info">Desenvolvo a interface do usuário</p>
+                                <p className="servicos__modal-info">Criação de API's para sistema</p>
                             </li>
 
                         </ul>

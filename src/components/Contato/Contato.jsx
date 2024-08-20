@@ -58,9 +58,9 @@ const Contato = () => {
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">(21)99999999</span>
+                            <span className="contact__card-data">(21)97085-4729</span>
 
-                            <a href="" className="contact__button">Mande-me uma mensagem {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://wa.me/5521970854729?text=Tenho%20interesse%20nos%20seus%20serviços" className="contact__button">Mande-me uma mensagem {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__email-status">
@@ -82,18 +82,18 @@ const Contato = () => {
 
                     <form className="contact__form" ref={form} onSubmit={sendEmail}>
                         <div className="contact__form-div">
-                            <label htmlFor="" className="contact__form-tag">email</label>
-                            <input type="email" name="email" className="contact__form-input" placeholder="Digite seu email"></input>
+                            <label htmlFor="" className="contact__form-tag">Email</label>
+                            <input type="email" name="email" className="contact__form-input" placeholder="Digite seu email" required></input>
                         </div>
 
                         <div className="contact__form-div">
-                            <label htmlFor="" className="contact__form-tag">Nome</label>
-                            <input type="text" name="nome" className="contact__form-input" placeholder="Digite seu nome"></input>
+                            <label htmlFor="" className="contact__form-tag" >Nome</label>
+                            <input type="text" name="nome" className="contact__form-input" placeholder="Digite seu nome" required></input>
                         </div>
 
                         <div className="contact__form-div">
-                            <label htmlFor="" className="contact__form-tag">Projeto</label>
-                            <textarea name="projeto" cols="30" rows="10" className="contact__form-input contact__form-area" placeholder="Descreva seu projeto aqui"></textarea>
+                            <label htmlFor="" className="contact__form-tag" >Projeto</label>
+                            <textarea name="projeto" cols="30" rows="10" className="contact__form-input contact__form-area" placeholder="Descreva seu projeto aqui" required></textarea>
                         </div>
 
                         <button className="button button--flex contact__button-sendmail"> Encaminhar e-mail

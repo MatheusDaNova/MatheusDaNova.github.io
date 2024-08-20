@@ -18,7 +18,7 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Programador full-stack</h3>
-            <p className="home__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae </p>
+            <p className="home__description">Estudante da área de tecnologia há mais de 4 anos e desenvolvedor web</p>
 
             <a href="#contato" className="button button--flex">Entre em contato
                 <svg xmlns="http://www.w3.org/2000/svg" class="button__icon" width="24" height="24" viewBox="0 0 24 24" fill="none">

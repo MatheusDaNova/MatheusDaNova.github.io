@@ -5,7 +5,7 @@ import "./Data";
 
 const Portifolio = () => {
     return (
-        <section className="portifolio section" id="projetos">
+        <section className="portifolio section" id="projetos" >
             <h2 className="section__title">Portifólio</h2>
             <span className="section__subtitle">Meus últimos trabalhos</span>
 

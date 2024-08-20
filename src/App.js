@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import ScrollUp from './components/ScrollUp/ScrollUp';
 import Portifolio from './components/Projetos/Portifolio';
 
+
 const App = () => {
   return (
     <>

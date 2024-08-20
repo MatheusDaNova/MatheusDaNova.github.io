@@ -18,6 +18,8 @@
 .nav__logo {
     color:var(--title-color);
     font-weight: var(--font-medium);
+    font-family: var(--title-font);
+  letter-spacing: 1.5px;
 }
 
 .nav__list {

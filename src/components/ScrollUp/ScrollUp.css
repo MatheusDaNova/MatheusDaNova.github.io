@@ -7,7 +7,7 @@
     padding: 0.3rem 0.5rem;
     opacity: 0.8;
     z-index: var(--z-tooltip);
-    transition: .4s;
+    transition: 1s;
 }
 
 .scrollup-icon{
@@ -15,8 +15,15 @@
     font-size: 1.5rem;
 }
 
-.scrollup-icon:hover{
-    color: var(--title-color-dark);
+.scrollup:hover {
+    background-color: var(--container-color);
+    transform:scale(1.1);
+    border: .1px solid var(--title-color-dark);
+
+}
+
+.scrollup:hover .scrollup-icon{
+    color: var(--title-color);
 }
 
 /* Show scroll */

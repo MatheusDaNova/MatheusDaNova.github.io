@@ -5,10 +5,10 @@ import Info from "./Info";
 import Curriculo from "../../assets/curriculo.pdf";
 
 const Sobre = () => {
-    return(
+    return( 
     <section className="about section" id="Sobre">
         <h2 className="section__title">Sobre Mim</h2>
-        <span className="section__subtitle">My introductions</span>
+        <span className="section__subtitle">Minhas credenciais</span>
 
         <div className="about__container container grid">
             <img src={AboutImg} alt="" className="about__img"/>
@@ -16,7 +16,7 @@ const Sobre = () => {
             <div className="about__data">
                 <Info />
 
-                <p className="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem non vel doloribus eligendi perferendis.</p>
+                <p className="about__description">Sou Matheus Pereira, freelancer e estudante de Computação na UFF. No decorrer desse website, você poderá ter acessar trabalhos que já realizei. Serei um excelente acréssimo a sua empresa!</p>
 
                 <a download="" href={Curriculo} className="button button--flex">Baixar Curriculo
                   <svg
