@@ -7,7 +7,7 @@ export const Data = [
         id: 1,
         image: Image1,
         title: "Joao Santos",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing. lorem lorem",
     },
     {
         id: 2,
