@@ -6,7 +6,6 @@ import Sobre from './components/Sobre/Sobre';
 import Skills from './components/Skills/Skills';
 import Servicos from './components/Servicos/Servicos';
 import Qualificacoes from './components/Qualificacoes/Qualificacoes';
-import Depoimentos from './components/Depoimentos/Depoimentos';
 import Contato from './components/Contato/Contato';
 import Footer from './components/Footer/Footer';
 import ScrollUp from './components/ScrollUp/ScrollUp';
