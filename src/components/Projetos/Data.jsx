@@ -26,32 +26,32 @@ export const ProjetosData = [
         image: Work3,
         title: 'Projeto 3',
         category: 'Ladding Pages',
-        git:'',
-        demo: '',
+        git:'https://github.com/MatheusDaNova/Capacitacao_JavaScript',
+        demo: 'https://www.flamengo.com.br/',
     },
     {
         id: 4,
         image: Work4,
         title: 'Projeto 4',
         category: 'APIs',
-        git:'',
-        demo: '',
+        git:'https://github.com/MatheusDaNova/Capacitacao_JavaScript',
+        demo: 'https://www.flamengo.com.br/',
     },
     {
         id: 5,
         image: Work5 ,
         title: 'Projeto 5',
         category: 'Ladding Pages',
-        git:'',
-        demo: '',
+        git:'https://github.com/MatheusDaNova/Capacitacao_JavaScript',
+        demo: 'https://www.flamengo.com.br/',
     },
     {
         id: 6,
         image: Work1,
         title: 'Projeto 6',
-        category: '',
-        git:'',
-        demo: '',
+        category: 'apis',
+        git:'https://github.com/MatheusDaNova/Capacitacao_JavaScript',
+        demo: 'https://www.flamengo.com.br/',
     },
 ];
 
@@ -64,8 +64,5 @@ export const projetosNav = [
     },
     {
         name:'APIs',
-    },
-    {
-        name:'Programas ',
     },
 ];
